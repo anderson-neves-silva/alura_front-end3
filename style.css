@@ -93,3 +93,27 @@ footer {
     font-size: 13px;
     margin: 20px 0 0;
 }
+
+/*colocando uma largura fixa e centralizando o conteúdo do form*/
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+/*margem superior e inferior de 40px e para os lados 0*/
+form {
+    margin: 40px 0;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px; /*colocando uma margem para baixo de 10px*/
+}
+
+form input {
+    display: block;
+    margin: 0 0 20px; /*colocando uma margem para baixo de 20px*/
+    padding: 10px 25px;
+    width: 50%;/*colocando o campo para ocupar 50% da página*/
+}
