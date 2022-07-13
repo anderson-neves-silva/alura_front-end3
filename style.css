@@ -105,15 +105,51 @@ form {
     margin: 40px 0;
 }
 
-form label {
+form label, form p {
     display: block;
     font-size: 20px;
     margin: 0 0 10px; /*colocando uma margem para baixo de 10px*/
 }
 
-form input {
+.input-padrao {
     display: block;
     margin: 0 0 20px; /*colocando uma margem para baixo de 20px*/
     padding: 10px 25px;
     width: 50%;/*colocando o campo para ocupar 50% da página*/
 }
+
+.checkbox {
+    margin: 20px 0; /*colocando uma margem para cima e para baixo de 20px e 0px para os lados*/
+}
+
+
+/*
+---------------------------
+Explicando a Especifidade ou Hierarquia no CSS:
+---------------------------
+a tag tem o peso 1 
+ex:
+p {
+}
+
+ex:
+form p {
+}
+Obs. nesse exemplo tem peso 1 + 1 = peso 2 pois usa duas tags a form e p
+---------------------------
+a class tem o peso 10 
+ex:
+.teste {
+}
+---------------------------
+o id tem o peso 100
+ex:
+#teste {
+}
+---------------------------
+a forma inline que é coloando direto na tag do html tem o peso como se fosse 1000
+ex:
+style="color: purple;
+Obs. nada substitui ela
+---------------------------
+*/
