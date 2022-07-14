@@ -141,6 +141,21 @@ form label, form legend {
     /*podemos fazer juntas as duas transformação da propriedade transform ficando assim transform: rotate(70deg) scale(1.2); deg e graus*/
 }
 
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #555555;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
 
 /*
 ---------------------------
